@@ -1,0 +1,1 @@
+import{n as s,p as a,q as c}from"./index-CnrVQVwR.js";const i=s("project",{state:()=>({projects:[],loading:!1,error:null}),actions:{async fetchProjects(){this.loading=!0;try{const o=[...await a("projects")];c.forEach(r=>{o.some(e=>e.id===r.id)||o.push(r)}),this.projects=o}catch(t){this.error="获取作品失败",console.error(t)}finally{this.loading=!1}}}});export{i as u};
