@@ -40,12 +40,12 @@ onMounted(() => {
     glowColor: isDark ? [0.2, 0.2, 0.2] : [0.9, 0.9, 0.9],
     opacity: isDark ? 0.8 : 0.8,
     markers: [
-      { location: [39.9042, 116.4074], size: 0.1 },  // 北京
-      { location: [31.2304, 121.4737], size: 0.1 },  // 上海
-      { location: [30.5728, 104.0668], size: 0.1 },  // 成都
-      { location: [23.1291, 113.2644], size: 0.1 },  // 广州
-      { location: [22.5431, 114.0579], size: 0.1 },  // 深圳
-      { location: [23.0215, 113.1214], size: 0.05 }, // 佛山
+      { location: [39.9042, 116.4074], size: 0.08 }, // 北京
+      { location: [31.2304, 121.4737], size: 0.08 }, // 上海
+      { location: [30.5728, 104.0668], size: 0.08 }, // 成都
+      { location: [23.1291, 113.2644], size: 0.05 }, // 广州
+      { location: [22.5431, 114.0579], size: 0.05 }, // 深圳
+      { location: [23.0215, 113.1214], size: 0.03 }, // 佛山
     ],
     onRender: (state) => {
       // 保持 theta 不变（视角高度固定）
