@@ -44,8 +44,15 @@ onMounted(() => {
             target="_blank"
             class="flex flex-col items-center p-4 rounded-xl border bg-card hover:shadow-md transition-all duration-300 group h-full"
           >
-            <div class="w-16 h-16 rounded-full overflow-hidden mb-4 border-2 border-muted group-hover:border-primary group-hover:scale-110 transition-all duration-300">
-              <img :src="friend.avatar" :alt="friend.name" class="w-full h-full object-cover">
+            <div class="w-16 h-16 rounded-full overflow-hidden mb-4 border-2 border-muted group-hover:border-primary group-hover:scale-110 transition-all duration-300 flex items-center justify-center bg-muted">
+              <img 
+                v-if="friend.avatar"
+                :src="friend.avatar" 
+                :alt="friend.name" 
+                @error="(e) => e.target.src = '/logo.png'"
+                class="w-full h-full object-cover"
+              >
+              <span v-else class="text-xl font-bold text-muted-foreground">{{ friend.name.charAt(0) }}</span>
             </div>
             <span class="font-bold text-base text-center line-clamp-1 group-hover:text-primary transition-colors">{{ friend.name }}</span>
             <p class="text-xs text-muted-foreground text-center line-clamp-2 mt-2 h-8 leading-relaxed">{{ friend.description }}</p>
