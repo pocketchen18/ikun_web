@@ -1,8 +1,8 @@
 ---
 title: "select_exam_spider - 教务系统成绩自动化监控工具"
 summary: "基于 Playwright 的教务系统成绩自动监控工具，支持邮件和桌面通知，助力学生实时掌握成绩录入动态。"
-cover_url: "/content/projects/image/select_exam.png"
-start_date: "2026-01-01"
+cover_url: ""
+start_date: "2026-01-19"
 end_date: "2026-01-21"
 demo_url: ""
 repo_url: "https://github.com/pocketchen18/select_exam_spider"

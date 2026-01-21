@@ -2,8 +2,8 @@
 title: "FindWork_Public - 应届生求职网自动化工具"
 summary: "基于 Playwright 的应届生求职网 (yingjiesheng.com) 职位自动化申请工具，助力毕业生高效求职。"
 cover_url: "/content/projects/image/find_work.png"
-start_date: "2023-10-01"
-end_date: "2023-12-31"
+start_date: "2025-10-18"
+end_date: "2025-10-19"
 demo_url: ""
 repo_url: "https://github.com/pocketchen18/FindWork_Public"
 is_featured: true

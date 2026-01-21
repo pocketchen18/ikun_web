@@ -3,7 +3,7 @@ title: "CET4/6 真题及答案自动爬取工具"
 summary: "一个基于 Python 的自动化工具，用于批量爬取、下载英语四六级真题 PDF 并自动提取、格式化真题答案。" 
 cover_url: "" 
 demo_url: "" 
-repo_url: "" 
+repo_url: "https://github.com/pocketchen18/cet_Examination_Paper_spider" 
 is_featured: true 
 tags: ["Python", "Playwright", "Selenium", "自动化爬虫"] 
 --- 
