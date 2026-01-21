@@ -1,8 +1,8 @@
 ---
 title: "我的酷炫个人作品"
 summary: "这是一个使用 Markdown 自动加载的作品示例。"
-cover_url: "https://picsum.photos/640/360?random=2"
-demo_url: "https://example.com"
+cover_url: ""
+demo_url: ""
 repo_url: "https://github.com"
 is_featured: true
 tags: ["Vue", "Tailwind"]

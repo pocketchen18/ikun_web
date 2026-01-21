@@ -2,7 +2,7 @@
 title: "我的第一篇 Markdown 博客"
 date: "2026-01-20"
 excerpt: "这是通过文件夹自动加载的第一篇博客示例。"
-cover_url: "https://picsum.photos/800/400?random=1"
+cover_url: ""
 tags: ["Vue", "Markdown"]
 ---
 
