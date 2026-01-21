@@ -49,8 +49,13 @@ onMounted(() => {
                 v-if="friend.avatar"
                 :src="friend.avatar" 
                 :alt="friend.name" 
-                @error="(e) => e.target.src = '/logo.png'"
+                referrerpolicy="no-referrer"
                 class="w-full h-full object-cover"
+                @error="(e) => { 
+                  console.log('Image load error:', friend.avatar);
+                  e.target.onerror = null; 
+                  e.target.src = '/logo.png'; 
+                }"
               >
               <span v-else class="text-xl font-bold text-muted-foreground">{{ friend.name.charAt(0) }}</span>
             </div>
