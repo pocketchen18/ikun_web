@@ -14,7 +14,7 @@ export async function loadMarkdownContent(directory) {
     const rawContent = modules[path];
     
     // 简单的前端解析逻辑 (不依赖 Buffer)
-    const frontmatterRegex = /^---\r?\n([\s\S]+?)\r?\n---\r?\n([\s\S]*)$/;
+    const frontmatterRegex = /^---\s*\r?\n([\s\S]+?)\r?\n---\s*\r?\n?([\s\S]*)$/;
     const match = rawContent.match(frontmatterRegex);
     
     let data = {};

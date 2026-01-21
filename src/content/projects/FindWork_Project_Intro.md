@@ -1,13 +1,14 @@
---- 
-title: "FindWork_Public - 应届生求职网自动化工具" 
-summary: "基于 Playwright 的应届生求职网 (yingjiesheng.com) 职位自动化申请工具，助力毕业生高效求职。" 
-cover_url: "src\content\projects\image\find_work.png" 
-demo_url: "" 
-repo_url: "https://github.com/pocketchen18/FindWork_Public" 
-is_featured: true 
-tags: ["Python", "Playwright", "Automation"] 
---- 
- 
+---
+title: "FindWork_Public - 应届生求职网自动化工具"
+summary: "基于 Playwright 的应届生求职网 (yingjiesheng.com) 职位自动化申请工具，助力毕业生高效求职。"
+cover_url: "/content/projects/image/find_work.png"
+start_date: "2023-10-01"
+end_date: "2023-12-31"
+demo_url: ""
+repo_url: "https://github.com/pocketchen18/FindWork_Public"
+is_featured: true
+tags: ["Python", "Playwright", "Automation"]
+---
 # 项目详情 
  
 **FindWork_Public** 是一个专为应届毕业生设计的网页自动化投递工具。该项目通过模拟真实用户操作，自动在“应届生求职网”上搜索目标职位并完成批量投递流程，显著降低了求职过程中的重复劳动。
