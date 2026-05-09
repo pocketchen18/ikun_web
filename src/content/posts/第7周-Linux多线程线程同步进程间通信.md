@@ -1,6 +1,6 @@
 ---
 title: "Linux多线程、线程同步、进程间通信"
-date: "2026-01-20"
+date: "2026-05-09"
 excerpt: "本内容直接关联Qt开发：Qt的QThread、QMutex、QWaitCondition、QThreadPool等类都基于这些底层概念。"
 cover_url: ""
 tags: ["线程", "同步", "进程间通信"]
